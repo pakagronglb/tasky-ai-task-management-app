@@ -1,37 +1,8 @@
 {
-  "version": 2,
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "vite",
-  "builds": [
+  "rewrites": [
     {
-      "src": "dist/**",
-      "use": "@vercel/static"
+      "source": "/(.*)",
+      "destination": "/"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "env": {
-    "VITE_APPWRITE_PROJECT_ID": {
-      "required": true
-    },
-    "VITE_APPWRITE_DATABASE_ID": {
-      "required": true
-    },
-    "VITE_CLERK_PUBLISHABLE_KEY": {
-      "required": true
-    },
-    "VITE_GEMINI_API_KEY": {
-      "required": true
-    }
-  },
-  "github": {
-    "enabled": true,
-    "silent": true
-  }
+  ]
 }
