@@ -4,9 +4,6 @@
 
 A modern task management application with AI capabilities, beautiful UI, and seamless user experience. Built with React, TypeScript, and powered by Appwrite backend and Google Gemini AI.
 
-[![Watch Tutorial](https://img.shields.io/badge/Watch%20Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=SjCGjT_Fdfg)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://taskly-ai.vercel.app)
-
 ## ✨ Features
 
 - 🤖 AI-powered task suggestions and management with Google Gemini
